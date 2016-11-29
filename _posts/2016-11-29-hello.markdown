@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "hello"
-date:   2016-11-29 14:51:21
+title:  "CSE-1001 Assignment Codes"
+date:   2016-11-29 21:15:21
 categories: nikhilnayak
 ---
-Hello.
+Assignments Codes for CSE-1001 Semester 1 available [here](https://nikhilnayak98.github.io/CSE-1001-SEM-1/).
