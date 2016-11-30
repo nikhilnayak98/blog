@@ -28,13 +28,13 @@ title: Nikhil Nayak | 18 and Learning
                 </div>
 </div>
 
-## Hello! 
+## Hello!
 
 I m a first year undergraduate student of Computer Science And Engineering Dept. at SOA University.
 
 Automating my existence is what I strive for. I m interested in Machine Learning and AI the most. This is the sole reason for most of the coding and tinkering I do. The rest is for helping out friends, and sometimes just for fun :).
 
-In my spare time you can find me building some or the other thing on the computer. I've done a lot of interesting projects and over the past years. Head over to the blog section to check out my exploits.
+In my spare time you can find me building some or the other thing on the computer. I've done a lot of interesting projects over the past years. Head over to the blog section to check out my exploits.
 
 ## Heading
 
