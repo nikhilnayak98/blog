@@ -6,7 +6,6 @@ categories: tensorflow
 ---
 Neural Network Classifier
 
-{% highlight python %}
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
@@ -53,4 +52,3 @@ new_samples = np.array(
 y = list(classifier.predict(new_samples, as_iterable=True))
 print('Predictions: {}'.format(str(y)))
 
-{% endhighlight %}
