@@ -1,13 +1,8 @@
 ---
-
 layout: post
-
 title:  "Neural Network Classifier"
-
 date:   2016-12-01 00:21:21
-
-categories: nikhilnayak
-,tensorflow
+categories: nikhilnayak,tensorflow
 ---
 from __future__ import absolute_import
 from __future__ import division
