@@ -37,7 +37,7 @@ Automating my existence is what I strive for. I m interested in Machine Learning
 
 In my spare time you can find me building some or the other thing on the computer. I've done a lot of interesting projects over the past years. Head over to the blog section to check out my exploits.
 
-Here's a little TensorFlow Python codethat makes up some data in two dimensions, and then fits a line to it .
+Here's a little TensorFlow Python code that makes up some data in two dimensions, and then fits a line to it .
 
 {% highlight python %}
 import tensorflow as tf
@@ -75,4 +75,4 @@ for step in range(201):
 # Learns best fit is W: [0.1], b: [0.3]
 {% endhighlight %}
 
-###           Happy Coding :)
+### Happy Coding :)
