@@ -5,7 +5,7 @@ date:   2016-12-01 00:21:21
 categories: tensorflow
 ---
 Neural Network Classifier
-{% highlight %}
+{% highlight python %}
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
