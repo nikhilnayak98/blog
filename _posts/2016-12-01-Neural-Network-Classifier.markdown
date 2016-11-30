@@ -3,7 +3,6 @@ layout: post
 title:  "Neural Network Classifier"
 date:   2016-12-01 00:21:21
 categories: tensorflow
-tags: tensorflow
 ---
 Neural Network Classifier
 {% highlight python %}
