@@ -5,6 +5,7 @@ date:   2016-12-01 00:21:21
 categories: tensorflow
 ---
 Neural Network Classifier
+
 {% highlight python %}
 from __future__ import absolute_import
 from __future__ import division
@@ -51,4 +52,5 @@ new_samples = np.array(
     [[6.4, 3.2, 4.5, 1.5], [5.8, 3.1, 5.0, 1.7]], dtype=float)
 y = list(classifier.predict(new_samples, as_iterable=True))
 print('Predictions: {}'.format(str(y)))
+
 {% endhighlight %}
