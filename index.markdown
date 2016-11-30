@@ -39,7 +39,7 @@ In my spare time you can find me building some or the other thing on the compute
 
 ## Heading
 
-{% highlight scss %}
+{% highlight python %}
 import tensorflow as tf
 import numpy as np
 
