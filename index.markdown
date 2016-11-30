@@ -28,7 +28,13 @@ title: Nikhil Nayak | 18 and Learning
                 </div>
 </div>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis [nostrud exercitation](http://alexcarpenter.me) ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Hello! 
+
+I m a first year undergraduate student of Computer Science And Engineering Dept. at SOA University.
+
+Automating my existence is what I strive for. This is the sole reason for most of the coding and tinkering I do. The rest is for helping out friends, and sometimes just for fun :).
+
+In my spare time you can find me building something on the computer. I've done a lot of interesting projects and over the past years. Head over to the blog section to check out my exploits.
 
 ## Heading
 
