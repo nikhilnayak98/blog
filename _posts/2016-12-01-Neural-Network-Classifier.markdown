@@ -4,7 +4,13 @@ title:  "Neural Network Classifier"
 date:   2016-12-01 00:21:21
 categories: tensorflow
 ---
-Neural Network Classifier
+TensorFlow’s high-level machine learning API (tf.contrib.learn) makes it easy to configure, train, and evaluate a variety of machine learning models. In this code, we’ll use tf.contrib.learn to construct a neural network classifier and train it on the Iris data set to predict flower species based on sepal/petal geometry. We'll write the code to perform the following five steps:
+
+1. Load CSVs containing Iris training/test data into a TensorFlow Dataset
+2. Construct a neural network classifier
+3. Fit the model using the training data
+4. Evaluate the accuracy of the model
+5. Classify new samples
 
 {% highlight python %}
 from __future__ import absolute_import
