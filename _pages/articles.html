@@ -19,7 +19,7 @@ permalink: /blog/
               <span class="card-title">{{ post.title }}</span>
                 <span style="float:right">
                     <div class="chip">
-                        {% post.categories %}
+                        {{ post.categories }}
                     </div>
                 </span>
               <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
