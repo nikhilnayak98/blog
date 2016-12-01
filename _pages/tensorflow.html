@@ -4,9 +4,10 @@ title: TensorFlow
 permalink: /TensorFlow/
 ---
 {% for post in site.posts  %}
-    {% if post.categories contains 'tensorflow' %}
+    {% if post.category contains 'tensorflow' %}
         {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
         {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+
         {% if forloop.first %}
             <h2 class="c-archives__year" id="{{ this_year }}-ref">{{this_year}}</h2>
             <ul class="c-archives__list">
