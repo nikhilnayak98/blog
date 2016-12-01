@@ -14,6 +14,7 @@ permalink: /repos/
   $(function(){
   $(window).load(function(e){
     e.preventDefault();
+    $('#ghapidata').html('<div class="spinner-layer spinner-red"> <div class="circle-clipper left"> <div class="circle"></div> </div><div class="gap-patch"> <div class="circle"></div> </div><div class="circle-clipper right"> <div class="circle"></div> </div> </div>');
     
     var username = 'nikhilnayak98';
     var requri   = 'https://api.github.com/users/'+username;
