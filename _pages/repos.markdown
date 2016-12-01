@@ -11,8 +11,8 @@ permalink: /repos/
   </div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   <script>
-  $(window).load(function(){
-  $('#ghsubmitbtn').on('click', function(e){
+  $(function(){
+  $(window).load(function(e){
     e.preventDefault();
     
     var username = 'nikhilnayak98';
