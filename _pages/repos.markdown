@@ -11,7 +11,7 @@ permalink: /repos/
   </div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   <script>
-   $(function(){
+   $document.ready(function(){
   $('#ghsubmitbtn').on('click', function(e){
     e.preventDefault();
     
@@ -56,7 +56,7 @@ permalink: /repos/
 	      var desc=repositories[index].description;
               if(desc==null)
 		desc="No Description Available";
-              outhtml = outhtml + '<li><div class="row"> <div class="col s12 m6"> <div class="card"> <div class="card-content black-text"> <span class="card-title"><b>'+repositories[index].name+'</b></span> <p>'+desc+'</p> </div> <div class="card-action"> <a href="'+repositories[index].html_url+'">VIEW ON GITHUB</a> <span style="float:right;">'+stafork+'</span> </div> </div> </div> </div>'+'</li>';
+              outhtml = outhtml + '<li><div class="row"> <div class="col s12 m12"> <div class="card"> <div class="card-content black-text"> <span class="card-title"><b>'+repositories[index].name+'</b></span> <p>'+desc+'</p> </div> <div class="card-action"> <a href="'+repositories[index].html_url+'">VIEW ON GITHUB</a> <span style="float:right;">'+stafork+'</span> </div> </div> </div> </div>'+'</li>';
             });
             outhtml = outhtml + '</ul></div>'; 
           }
