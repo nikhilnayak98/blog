@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CSE-1001 Assignment Codes"
+title:  "edmbeats"
 date:   2016-04-13 21:15:21
 categories: edmbeats,dj
 ---
