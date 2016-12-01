@@ -17,10 +17,10 @@ permalink: /blog/
           <div class="card blue-grey darken-1">
             <div class="card-content white-text">
               <span class="card-title">{{ post.title }}</span>
-                {% for category in post.categories %}
+                {% for categories in post.categories %}
                 <span style="float:right">
                     <div class="chip">
-                        {% category %}
+                        {% categories %}
                     </div>
                 </span>
                 {% endfor %}
