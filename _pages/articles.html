@@ -14,16 +14,18 @@ permalink: /blog/
         <li class="c-archives__item">
             <h3></h3>
             <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-            <div class="col s12 m12">
-                <div class="card blue-grey darken-1">
-                    <div class="card-content white-text">
-                        <span class="card-title">{{ post.title }}</span>
-                        <p></p>
-                        <div class="card-action">
-                            <a href="{{ post.url | prepend: site.baseurl }}">VIEW MORE</a>
+            <div class="row">
+                <div class="col s12 m12">
+                    <div class="card blue-grey darken-1">
+                        <div class="card-content white-text">
+                            <span class="card-title">{{ post.title }}</span>
+                            <p></p>
+                            <div class="card-action">
+                                <a href="{{ post.url | prepend: site.baseurl }}">VIEW MORE</a>
+                            </div>
                         </div>
                     </div>
-                </div>
+            </div>
         </li>
     {% if forloop.last %}
         </ul>
