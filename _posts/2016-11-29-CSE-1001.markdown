@@ -4,4 +4,4 @@ title:  "CSE-1001 Assignment Codes"
 date:   2016-11-29 21:15:21
 categories: codes,assignments
 ---
-Assignment Codes for CSE-1001 Semester 1 available [here](https://nikhilnayak98.github.io/CSE-1001-SEM-1/).
+Assignment Codes for CSE-1001 Semester 1 available [here](https://nikhilnayak98.github.io/CSE-1001-SEM-1/). Including Assignment 1, 2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,10.
