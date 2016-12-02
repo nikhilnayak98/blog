@@ -5,7 +5,14 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  
+  <meta name="keywords" content="Nikhil Nayak,Tech,Techie, nikhilnayak98, nikhilnayak, Developer"/>
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:site_name" content="Nikhil Nayak">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nikhilnayak98.github.io">
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:image" content="https://nikhilnayak98.github.io/images/favicon.ico">
+	
   <meta name="msapplication-TileImage" content="https://nikhilnayak98.github.io/images/favicon.ico">
   <meta name="msapplication-TileColor" content="#673AB7">
 
