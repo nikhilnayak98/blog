@@ -11,7 +11,11 @@ self.addEventListener('install', e => {
 	'https://code.jquery.com/jquery-2.1.1.min.js',
         'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js',
         'https://nikhilnayak98.github.io/js/smoothscroll.js',
-	'https://nikhilnayak98.github.io/js/smoothscroll.js'
+	'https://nikhilnayak98.github.io/js/smoothscroll.js',
+	'/blog/',
+	'/MachineLearning/',
+	'/academics/',
+	'/about/'
       ])
       .then(() => self.skipWaiting());
     })
