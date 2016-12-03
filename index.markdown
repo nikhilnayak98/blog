@@ -78,4 +78,4 @@ for step in range(201):
 ### Happy Coding :)
 
 
-Subscribe via [Atom]({{ site.url }}/atom.xml) or [RSS]({{ site.url }}/feed.xml).
+Subscribe via [Atom]({{ site.url }}/atom.xml) or [RSS]({{ site.url }}/rss.xml).
