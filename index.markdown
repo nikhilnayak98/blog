@@ -79,3 +79,18 @@ for step in range(201):
 
 
 Subscribe via [Atom]({{ site.url }}/atom.xml) or [RSS]({{ site.url }}/rss.xml).
+
+<script>
+if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js', { scope: '/' })
+          .then(function(registration) {
+                console.log('Service Worker Registered');
+          });
+
+        navigator.serviceWorker.ready.then(function(registration) {
+           console.log('Service Worker Ready');
+             var $toastContent = $('<span>Caching Complete, Future Visits Will Work Offline</span>');
+              Materialize.toast($toastContent, 5000);
+        });
+      }
+</script>
