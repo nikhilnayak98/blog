@@ -1,6 +1,4 @@
-// caches polyfill because it is not added to native yet!
-var caches = require('/js/serviceworker-caches');
-
+self.CACHE_NAME = 'nikhilnayak-v1';
 if(typeof self.CACHE_NAME !== 'string') {
 	throw new Error('Cache Name cannot be empty');
 }
