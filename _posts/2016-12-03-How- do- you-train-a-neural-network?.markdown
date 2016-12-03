@@ -2,7 +2,8 @@
 layout: post
 title:  "How do you train a neural network?"
 date:   2016-12-03 19:34:57
-categories: coffeecup,nicks
+categories: neural networks,ai
+tags: ai
 ---
 A neural network is a simple mechanism that’s implemented with basic math. The only difference between the traditional programming and neural network is, again, that you let the computer determine the parameters by learning from training datasets.
 
