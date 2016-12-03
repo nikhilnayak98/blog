@@ -2,4 +2,4 @@
 self.CACHE_NAME = 'nikhilnayak-v1';
 
 // and require the sw-cache-all
-require('/js/index.js');
+require('sw.js');
