@@ -18,7 +18,7 @@ permalink: /MachineLearning/
                 <ul class="collapsible popout collapsible-accordion" data-collapsible="accordion">
                     <li>
                         <div class="collapsible-header">
-                        {{ post.title }}
+                            <b>{{ post.title }}</b>
                         </div>
                         <div class="collapsible-body" style="display: none;">
                             <p>{{ post.excerpt | strip_html | truncatewords: 20 }} ...<a href="{{ post.url | prepend: site.baseurl }}">View More</a></p>
