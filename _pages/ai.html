@@ -12,10 +12,19 @@ permalink: /MachineLearning/
             <h2 class="c-archives__year" id="{{ this_year }}-ref">{{this_year}}</h2>
             <ul class="c-archives__list">
         {% endif %}
-            <li class="c-archives__item">
-                <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-                <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-            </li>
+            <div id="popout"> 
+                <ul class="collapsible popout collapsible-accordion" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header">
+                        {{ post.title }}
+                        <span style="float:right;">{{ post.date | date: "%b %-d, %Y" }}</span>
+                        </div>
+                        <div class="collapsible-body" style="display: none;">
+                            <p>{{ post.excerpt | strip_html | truncatewords: 20 }} ...<a href="{{ post.url | prepend: site.baseurl }}">View More</a></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         {% if forloop.last %}
             </ul>
         {% else %}
