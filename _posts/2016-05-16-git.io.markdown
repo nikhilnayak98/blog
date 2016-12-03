@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "My First Web App"
+title:  "Git.io"
 date:   2016-05-16 13:20:10
 categories: git.io
 ---
-Create short git.io url for non github.com websites. Visit [here](https://github.com/nikhilnayak98/gitredirect).
+Create short git.io url for non github.com websites. Visit [here](https://github.com/nikhilnayak98/gitredirect). Visit [git.io](https://git.io/). Based on meta redirect.
