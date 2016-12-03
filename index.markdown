@@ -89,8 +89,7 @@ if('serviceWorker' in navigator) {
 
         navigator.serviceWorker.ready.then(function(registration) {
            console.log('Service Worker Ready');
-             var $toastContent = $('<span>Caching Complete, Future Visits Will Work Offline</span>');
-              Materialize.toast($toastContent, 5000);
+              Materialize.toast('Caching Complete, Future Visits Will Work Offline', 5000);
         });
       }
 </script>
