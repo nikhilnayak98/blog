@@ -1,8 +1,0 @@
----
-layout: post
-title:  "WebVR Demo"
-date:   2016-05-11 14:20:54
-categories: webvr,aframe
----
-
-WebVR [Demo](https://nikhilnayak98.github.io/webvrapp/) using aframe.io. Using a [text-component](https://nikhilnayak98.github.io/webvrapp/assets/vr/js/aframe-text-component.min.js) I was able to add custom 3D text.
