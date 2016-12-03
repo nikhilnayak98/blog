@@ -35,7 +35,7 @@ I m a first year undergraduate student of Computer Science And Engineering Dept.
 
 Automating my existence is what I strive for. I m interested in Machine Learning and AI the most. This is the sole reason for most of the coding and tinkering I do. The rest is for helping out friends, and sometimes just for fun :).
 
-In my spare time you can find me building some or the other thing on the computer. I've done a lot of interesting projects over the past years. Head over to the blog section to check out my exploits.
+In my spare time you can find me building some or the other thing on the computer. I've done a lot of interesting projects over the past years. Head over to the repos section to check out my exploits.
 
 Here's a little TensorFlow Python code that makes up some data in two dimensions, and then fits a line to it .
 
