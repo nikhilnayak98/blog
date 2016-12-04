@@ -88,7 +88,7 @@ if('serviceWorker' in navigator) {
           });
 
         navigator.serviceWorker.ready.then(function(registration) {
-           console.log('Service Worker Ready \n Ready For Offline Use');
+           console.log('Service Worker Ready');
         });
       }
 </script>
