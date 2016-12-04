@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "name": "Nikhil Nayak | 18 and Learning",
+  "launch_path": "/",
+  "description": "Nikhil Nayak a computer science pursuing student, interested in Machine Learning, TensorFlow, Virtual Reality.",
+  "icons": {
+    "128": "/images/favicon.png"
+  },
+  "developer": {
+    "name": "Nikhil Nayak",
+    "url": "https://github.com/nikhilnayak98"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Nikhil Nayak | 18 and Learning",
+      "description": "Nikhil Nayak a computer science pursuing student, interested in Machine Learning, TensorFlow, Virtual Reality."
+    }
+  }
+}
