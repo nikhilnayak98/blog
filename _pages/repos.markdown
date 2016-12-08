@@ -3,6 +3,8 @@ layout: page
 title: Repos
 permalink: /repos/
 ---
+<img src="https://contributionsapigithub.herokuapp.com/nikhilnayak98" alt="nikhilnayak98's Github chart" />
+<br>
 <div id="w">
    
     <div id="ghapidata"></div>
