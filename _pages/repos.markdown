@@ -3,7 +3,8 @@ layout: page
 title: Repos
 permalink: /repos/
 ---
-
+<img src="http://ghchart.rshah.org/nikhilnayak98" alt="nikhilnayak98's Github chart" />
+<br>
 <div id="w">
    
     <div id="ghapidata"></div>
