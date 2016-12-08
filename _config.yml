@@ -35,6 +35,8 @@ fixedNav: 'true' # true or false
 permalink: /:year/:month/:title
 markdown: kramdown
 include: [_pages]
+gems:
+  - jekyll-admin
 exclude: [_site, CHANGELOG.md, LICENSE, README.md]
 sass:
   style: compressed
