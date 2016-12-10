@@ -100,4 +100,8 @@ if('serviceWorker' in navigator) {
          localStorage.setItem('alerted','yes');
         }
       }
+      window.addEventListener('offline', updateOfflineStatus);
+      function updateOfflineStatus(){
+        var $toastContent = $('<span style="font-size:18px;font-style: normal;">You are offline.</span>');
+      }
 </script>
