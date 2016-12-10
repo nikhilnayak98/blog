@@ -95,8 +95,8 @@ if('serviceWorker' in navigator) {
       function alertShow(){
        var alerted = localStorage.getItem('alerted') || '';
         if (alerted != 'yes') {
-         Materialize.toast('Caching Complete.', 4000);
-         Materialize.toast('Future Visits Will Work Offline.', 4000);
+         var $toastContent = $('<span style="font-size:20px;">Caching Complete.</span>');
+         Materialize.toast($toastContent, 4000, '', funtion(){var $toastContent = $('<span style="font-size:20px;">Future Visits Will Work Offline.</span>');Materialize.toast($toastContents, 4000);});
          localStorage.setItem('alerted','yes');
         }
       }
