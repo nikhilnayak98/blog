@@ -89,6 +89,14 @@ if('serviceWorker' in navigator) {
 
         navigator.serviceWorker.ready.then(function(registration) {
            console.log('Service Worker Ready');
+           alertShow();
         });
+      }
+      function alertShow(){
+       var alerted = localStorage.getItem('alerted') || '';
+        if (alerted != 'yes') {
+         alert("Caching Complete.");
+         localStorage.setItem('alerted','yes');
+        }
       }
 </script>
