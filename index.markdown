@@ -95,8 +95,8 @@ if('serviceWorker' in navigator) {
       function alertShow(){
        var alerted = localStorage.getItem('alerted') || '';
         if (alerted != 'yes') {
-         var $toastContent = $('<span style="font-size:15px;font-style: normal;">Caching Complete.</span>');
-         Materialize.toast($toastContent, 4000, '', function(){var $toastContents = $('<span style="font-size:15px;font-style: normal;">Future Visits Will Work Offline.</span>');Materialize.toast($toastContents, 4000);});
+         var $toastContent = $('<span style="font-size:18px;font-style: normal;">Caching Complete.</span>');
+         Materialize.toast($toastContent, 4000, '', function(){var $toastContents = $('<span style="font-size:18px;font-style: normal;">Future Visits Will Work Offline.</span>');Materialize.toast($toastContents, 4000);});
          localStorage.setItem('alerted','yes');
         }
       }
