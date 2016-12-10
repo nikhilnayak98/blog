@@ -100,8 +100,9 @@ if('serviceWorker' in navigator) {
          localStorage.setItem('alerted','yes');
         }
       }
-      window.addEventListener('offline', updateOfflineStatus);
       function updateOfflineStatus(){
-        var $toastContent = $('<span style="font-size:18px;font-style: normal;">You are offline.</span>');
+        var $toastOff = $('<span style="font-size:18px;font-style: normal;">You are offline.</span>');
+        Materialize.toast($toastOff, 5000);
       }
+      window.addEventListener('offline', updateOfflineStatus);
 </script>
