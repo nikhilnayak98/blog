@@ -19,7 +19,6 @@ self.addEventListener('install', e => {
         'https://nikhilnayak98.github.io/js/smoothscroll.js',
 	'https://api.github.com/users/nikhilnayak98/repos',
 	'https://api.github.com/users/nikhilnayak98',
-	'https://contributionsapigithub.herokuapp.com/nikhilnayak98',
 	'/images/icons/png/icon-72x72.png',
 	'/images/icons/png/icon-96x96.png',
 	'/images/icons/png/icon-128x128.png',
