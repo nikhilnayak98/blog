@@ -92,17 +92,4 @@ if('serviceWorker' in navigator) {
            alertShow();
         });
       }
-      function alertShow(){
-       var alerted = localStorage.getItem('alerted') || '';
-        if (alerted != 'yes') {
-         var $toastContent = $('<span style="font-size:18px;font-style: normal;">Caching Complete.</span>');
-         Materialize.toast($toastContent, 4000, '', function(){var $toastContents = $('<span style="font-size:18px;font-style: normal;">Future Visits Will Work Offline.</span>');Materialize.toast($toastContents, 4000);});
-         localStorage.setItem('alerted','yes');
-        }
-      }
-      function updateOfflineStatus(){
-        var $toastOff = $('<span style="font-size:18px;font-style: normal;">You are offline.</span>');
-        Materialize.toast($toastOff, 5000);
-      }
-      window.addEventListener('offline', updateOfflineStatus);
 </script>
