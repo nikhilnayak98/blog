@@ -2,7 +2,6 @@ var mess=0;
 function updateOfflineStatus(){
   var $toastOff = $('<span style="font-size:18px;font-style: normal;">You are offline <img src="/images/icons/svgs/offline.svg"/></span>');
   Materialize.toast($toastOff, 5000);
-  changeColorOffline();
   mess=1;
 }
 function updateOnlineStatus(){
@@ -10,7 +9,6 @@ function updateOnlineStatus(){
     var $toastOn = $('<span style="font-size:18px;font-style: normal;">You are back online <img src="/images/icons/svgs/check.svg" /></span>');
     Materialize.toast($toastOn, 5000);
    }
-  changeColorOnline();
 }
 function changeColorOffline(){
    document.getElementsByTagName("HTML")[0].setAttribute("class", "t-grey");
