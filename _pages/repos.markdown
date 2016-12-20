@@ -60,6 +60,9 @@ permalink: /repos/
 	      localStorage.setItem(repositories[index].name, repositories[index].html_url);
               localStorage.setItem(desc, stafork);
             });
+	    for (var i = 0; i < localStorage.length; i++){
+    outhtml + = localStorage.getItem(localStorage.key(i)) + "\n";
+}
             outhtml = outhtml + '</ul></div>'; 
           }
           $('#ghapidata').html(outhtml);
@@ -77,8 +80,4 @@ permalink: /repos/
     });
   }
 });
-for (var i = 0; i < localStorage.length; i++){
-    document.write(localStorage.getItem(localStorage.key(i)));
-    document.write("\n");
-}
   </script>
