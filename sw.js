@@ -11,6 +11,8 @@ self.addEventListener('install', e => {
 	'/images/icons/svgs/check.svg',
 	'/images/icons/svgs/offline.svg',
 	'/images/icons/png/linkedin24.png',
+	'/js/smoothscroll.js',
+	'/js/util.js',
 	'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css',
 	'https://fonts.googleapis.com/icon?family=Material+Icons',
 	'https://fonts.googleapis.com/css?family=Roboto:400,400italic,700|Roboto+Mono:400,500',
