@@ -15,12 +15,20 @@ function updateOnlineStatus(){
 function changeColorOffline(){
    document.getElementsByTagName("HTML")[0].setAttribute("class", "t-grey");
    document.getElementsByClassName("btn-floating btn-large purple darken-4")[0].setAttribute("class", "btn-floating btn-large grey darken-1");
-   document.getElementsByClassName("tabs")[0].style.background='grey';
+   document.getElementsByClassName("tabs")[0].style.background='#607D8B';
+   document.querySelector('meta[name="theme-color"]').setAttribute("content", "#607D8B");
+   document.querySelector('meta[name="msapplication-TileColor"]').setAttribute("content", "#607D8B");
+   document.querySelector('meta[name="msapplication-navbutton-color"]').setAttribute("content", "#607D8B");
+   document.querySelector('meta[name="apple-mobile-web-app-status-bar-style"]').setAttribute("content", "grey-translucent");
 }
 function changeColorOnline(){
    document.getElementsByTagName("HTML")[0].setAttribute("class", "t-purple");
    document.getElementsByClassName("btn-floating btn-large grey darken-1")[0].setAttribute("class", "btn-floating btn-large purple darken-4");
    document.getElementsByClassName("tabs")[0].style.background='#673AB7';
+   document.querySelector('meta[name="theme-color"]').setAttribute("content", "#673AB7");
+   document.querySelector('meta[name="msapplication-TileColor"]').setAttribute("content", "#673AB7");
+   document.querySelector('meta[name="msapplication-navbutton-color"]').setAttribute("content", "#673AB7");
+   document.querySelector('meta[name="apple-mobile-web-app-status-bar-style"]').setAttribute("content", "purple-translucent");
 }
 window.addEventListener('offline', updateOfflineStatus);
 window.addEventListener('online', updateOnlineStatus);
