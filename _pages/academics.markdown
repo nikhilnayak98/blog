@@ -29,8 +29,6 @@ permalink: /academics/
                   
                   <li class="collection-item"><div>Satellite Image Processing</div></li>
                   
-                  <li class="collection-item"><div>Advanced Computing for Electrical Engineers</div></li>
-                  
                   <li class="collection-item"><div>High Performance Scientific Computing</div></li>
                   
                   <li class="collection-item"><div>Design &amp; Analysis of Algorithms</div></li>
@@ -40,8 +38,6 @@ permalink: /academics/
                   <li class="collection-item"><div>Logic for Computer Science</div></li>
                   
                   <li class="collection-item"><div>Computer &amp; Network Security</div></li>
-                  
-                  <li class="collection-item"><div>Software Development Techniques for Scientists</div></li>
                   
               </ul>
           </div>
