@@ -1,9 +1,9 @@
 title: Nikhil Nayak
 email: nikhilnayak98@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: > # ignore newlines until "baseurl:"
  Nikhil Nayak a computer science pursuing student, interested in Machine Learning, TensorFlow, Virtual Reality.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://nikhilnayak98.github.io" # the base hostname & protocol for your site
+baseurl: "" # subpath, e.g. /blog
+url: "https://nikhilnayak98.github.io" # base hostname & protocol
 
 # Social
 githubUsername: nikhilnayak98
