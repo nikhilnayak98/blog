@@ -1,11 +1,9 @@
 var mess=0;      
-var statestat=1;
 function updateOfflineStatus(){
   var $toastOff = $('<span style="font-size:18px;font-style: normal;">You are offline <img src="/images/icons/svgs/offline.svg"/></span>');
   Materialize.toast($toastOff, 5000);
   mess=1;
   changeColorOffline();
-  statestat=0;
 }
 function updateOnlineStatus(){
    if(mess==1){
@@ -27,8 +25,6 @@ function changeColorOnline(){
 window.addEventListener('offline', updateOfflineStatus);
 window.addEventListener('online', updateOnlineStatus);
 
-if (navigator.onLine) {
-    statestat=1;
-} else {
+if (!navigator.onLine) {
     changeColorOffline();
 }
