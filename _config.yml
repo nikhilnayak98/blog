@@ -20,6 +20,6 @@ fixedNav: 'true' # true or false
 permalink: /:year/:month/:title
 markdown: kramdown
 include: [_pages]
-exclude: [_site, CHANGELOG.md, LICENSE, README.md]
+exclude: [_site, LICENSE, README.md]
 sass:
   style: compressed
