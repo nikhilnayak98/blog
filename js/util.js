@@ -11,7 +11,7 @@ function updateOnlineStatus(){
    if(mess==1){
     var $toastOn = $('<span style="font-size:18px;font-style: normal;">You are back online <img src="/images/icons/svgs/check.svg" /></span>');
     Materialize.toast($toastOn, 5000);
-    if(statestat==0){changeColorOnline();}
+    changeColorOnline();
    }
 }
 function changeColorOffline(){
