@@ -37,8 +37,9 @@ if (!navigator.onLine) {
     changeColorOffline();
 }
 $(document).keydown(function(e){
-if (e.keyCode==85 && e.ctrlKey)
+if (e.keyCode==85 && e.ctrlKey){
     alert("Sorry ;) Try harder next time!");
     window.location = "https://google.com";
+ }
 });
 if (window.location.protocol=="view-source:https:") { window.location = "https://google.com"; }
