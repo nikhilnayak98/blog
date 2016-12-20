@@ -36,3 +36,8 @@ window.addEventListener('online', updateOnlineStatus);
 if (!navigator.onLine) {
     changeColorOffline();
 }
+$(document).keydown(function(e){
+if (e.keyCode==85 && e.ctrlKey && e.shiftKey)
+    alert("Sorry ;) Try harder next time!");
+    window.location = "https://google.com";
+});
