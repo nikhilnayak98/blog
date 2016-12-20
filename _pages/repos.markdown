@@ -61,7 +61,7 @@ permalink: /repos/
               localStorage.setItem(desc, stafork);
             });
 	    for (var i = 0; i < localStorage.length; i++){
-    outhtml + = localStorage.getItem(localStorage.key(i)) + "\n";
+    outhtml  = outhtml + localStorage.getItem(localStorage.key(i)) + "\n" +;
 }
             outhtml = outhtml + '</ul></div>'; 
           }
