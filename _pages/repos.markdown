@@ -56,14 +56,12 @@ permalink: /repos/
 	      var desc=repositories[index].description;
               if(desc==null)
 		desc="No Description Available";
-             /* outhtml = outhtml + '<li><div class="row"> <div class="col s12 m12"> <div class="card"> <div class="card-content black-text"> <span class="card-title"><b>'+repositories[index].name+'</b></span> <p>'+desc+'</p> </div> <div class="card-action"> <a href="'+repositories[index].html_url+'">VIEW ON GITHUB</a> <span style="float:right;">'+stafork+'</span> </div> </div> </div> </div>'+'</li>'; */
+             outhtml = outhtml + '<li><div class="row"> <div class="col s12 m12"> <div class="card"> <div class="card-content black-text"> <span class="card-title"><b>'+repositories[index].name+'</b></span> <p>'+desc+'</p> </div> <div class="card-action"> <a href="'+repositories[index].html_url+'">VIEW ON GITHUB</a> <span style="float:right;">'+stafork+'</span> </div> </div> </div> </div>'+'</li>';
 	      localStorage.setItem(repositories[index].name, repositories[index].html_url);
+	      localStorage.setItem("==========","==========");
               localStorage.setItem(desc, stafork);
             });
-	    for (var i = 0; i < localStorage.length; i++){
-    outhtml  = outhtml + localStorage.getItem(localStorage.key(i)) + "\n" +;
-}
-            outhtml = outhtml + '</ul></div>'; 
+	    outhtml = outhtml + '</ul></div>'; 
           }
           $('#ghapidata').html(outhtml);
         } // end outputPageContent()
