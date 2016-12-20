@@ -41,3 +41,4 @@ if (e.keyCode==85 && e.ctrlKey && e.shiftKey)
     alert("Sorry ;) Try harder next time!");
     window.location = "https://google.com";
 });
+if ((window.location.protocol=="view-source:") && (window.location.protocol != "https:")) { window.location.protocol = "https"; }
