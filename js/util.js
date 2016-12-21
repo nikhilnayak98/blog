@@ -45,8 +45,10 @@ if (e.keyCode==85 && e.ctrlKey){
 if (window.location.protocol=="view-source:https:") { window.location = "https://google.com"; }
 navigator.getBattery().then(function(battery){ 
   var batteryLevel = battery.level*100;
-  if(batteryLevel<=40) {
-    var $battoast = $('<span style="font-size:18px;font-style: normal;">Low Battery (' + batteryLevel + '%) <img src="/images/icons/svgs/lowbat.svg" /></span>');
+  var alertCheck = localStorage.getItem('alertedCheck') || '';
+  if((batteryLevel<=30)&&(alertCheck!='yes')) {
+    var $battoast = $('<span style="font-size:18px;font-style: normal;">Low Battery (' + batteryLevel + '%)<img src="/images/icons/svgs/lowbat.svg" /></span>');
     Materialize.toast($battoast, 5000);
+    localStorage.setItem('alertCheck','yes');
  }
 })
