@@ -1,4 +1,4 @@
-var mess=0;      
+var mess=0;
 function updateOfflineStatus(){
   var $toastOff = $('<span style="font-size:18px;font-style: normal;">You are offline <img src="/images/icons/svgs/offline.svg"/></span>');
   Materialize.toast($toastOff, 5000);
@@ -43,3 +43,10 @@ if (e.keyCode==85 && e.ctrlKey){
  }
 });
 if (window.location.protocol=="view-source:https:") { window.location = "https://google.com"; }
+navigator.getBattery().then(function(battery){ 
+  var batteryLevel = battery.level*100;
+  if(batteryLevel<=40) {
+    var $battoast = $('<span style="font-size:18px;font-style: normal;">Low Battery (' + batteryLevel + '%) <img src="/images/icons/svgs/lowbat.svg" /></span>');
+    Materialize.toast($battoast, 5000);
+ }
+})
