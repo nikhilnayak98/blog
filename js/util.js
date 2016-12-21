@@ -56,6 +56,6 @@ navigator.getBattery().then(function(battery){
   if(batteryLevel<=30) {
     var $battoast = $('<span style="font-size:18px;font-style: normal;">Low Battery (' + batteryLevel + '%)<img src="/images/icons/svgs/lowbat.svg" /></span>');
     Materialize.toast($battoast, 5000);
-    navigator.vibrate([500, 250, 500, 250, 500, 250, 500]);
+    navigator.vibrate([500, 250, 500, 250, 500, 250]);
  }
 })
