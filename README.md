@@ -21,7 +21,6 @@
 + Offline Ready
 + Progressive Web App
 + Comments
-+ TensorFlow Powered
   
 ## Library Stack
 1. Materializecss
