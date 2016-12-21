@@ -53,10 +53,8 @@ if (window.location.protocol=="view-source:https:") { window.location = "https:/
 navigator.getBattery().then(function(battery){ 
   var batteryLevel = battery.level*100;
   batteryLevel = batteryLevel.toPrecision(3);
-  var alertCheck = localStorage.getItem('alertedCheck') || '';
-  if((batteryLevel<=30)&&(alertCheck!='yes')) {
+  if(batteryLevel<=30) {
     var $battoast = $('<span style="font-size:18px;font-style: normal;">Low Battery (' + batteryLevel + '%)<img src="/images/icons/svgs/lowbat.svg" /></span>');
     Materialize.toast($battoast, 5000);
-    localStorage.setItem('alertedCheck','yes');
  }
 })
