@@ -1,5 +1,8 @@
 var mess=0;
 function updateOfflineStatus(){
+  var d = new Date(new Date().getTime()).toLocaleDateString();
+  var t = new Date(new Date().getTime()).toLocaleString();
+  console.log('Went Offline on ' + d + ' at ' + t);
   var $toastOff = $('<span style="font-size:18px;font-style: normal;">You are offline <img src="/images/icons/svgs/offline.svg"/></span>');
   Materialize.toast($toastOff, 5000);
   mess=1;
