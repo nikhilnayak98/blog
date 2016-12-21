@@ -19,7 +19,9 @@ function changeColorOffline(){
    document.querySelector('meta[name="msapplication-TileColor"]').setAttribute("content", "#607D8B");
    document.querySelector('meta[name="msapplication-navbutton-color"]').setAttribute("content", "#607D8B");
    document.querySelector('meta[name="apple-mobile-web-app-status-bar-style"]').setAttribute("content", "grey-translucent");
-   document.getElementsByClassName("tabs")[0].style.background='#607D8B';
+   if(window.location.pathname=='/academics/') {
+     document.getElementsByClassName("tabs")[0].style.background='#607D8B';
+   }
 }
 function changeColorOnline(){
    document.getElementsByTagName("HTML")[0].setAttribute("class", "t-purple");
@@ -28,7 +30,9 @@ function changeColorOnline(){
    document.querySelector('meta[name="msapplication-TileColor"]').setAttribute("content", "#673AB7");
    document.querySelector('meta[name="msapplication-navbutton-color"]').setAttribute("content", "#673AB7");
    document.querySelector('meta[name="apple-mobile-web-app-status-bar-style"]').setAttribute("content", "purple-translucent");
-   document.getElementsByClassName("tabs")[0].style.background='#673AB7';
+   if(window.location.pathname=='/academics/') {
+     document.getElementsByClassName("tabs")[0].style.background='#673AB7';
+   }
 }
 window.addEventListener('offline', updateOfflineStatus);
 window.addEventListener('online', updateOnlineStatus);
