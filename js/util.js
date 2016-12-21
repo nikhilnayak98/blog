@@ -45,7 +45,7 @@ if (!navigator.onLine) {
 }
 $(document).keydown(function(e){
 if (e.keyCode==85 && e.ctrlKey){
-    alert("Sorry ;) Try harder next time!");
+    alert("Sorry ;P");
     window.location = "https://google.com";
  }
 });
