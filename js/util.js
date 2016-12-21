@@ -49,6 +49,6 @@ navigator.getBattery().then(function(battery){
   if((batteryLevel<=30)&&(alertCheck!='yes')) {
     var $battoast = $('<span style="font-size:18px;font-style: normal;">Low Battery (' + batteryLevel + '%)<img src="/images/icons/svgs/lowbat.svg" /></span>');
     Materialize.toast($battoast, 5000);
-    localStorage.setItem('alertCheck','yes');
+    localStorage.setItem('alertedCheck','yes');
  }
 })
