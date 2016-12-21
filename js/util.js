@@ -1,7 +1,7 @@
 var mess=0;
 function updateOfflineStatus(){
   var d = new Date(new Date().getTime()).toLocaleDateString();
-  var t = new Date(new Date().getTime()).toLocaleString();
+  var t = new Date(new Date().getTime()).toLocaleTimeString();
   console.log('Went Offline on ' + d + ' at ' + t);
   var $toastOff = $('<span style="font-size:18px;font-style: normal;">You are offline <img src="/images/icons/svgs/offline.svg"/></span>');
   Materialize.toast($toastOff, 5000);
@@ -52,6 +52,7 @@ if (e.keyCode==85 && e.ctrlKey){
 if (window.location.protocol=="view-source:https:") { window.location = "https://google.com"; }
 navigator.getBattery().then(function(battery){ 
   var batteryLevel = battery.level*100;
+  batteryLevel = batteryLevel.toPrecision(3);
   var alertCheck = localStorage.getItem('alertedCheck') || '';
   if((batteryLevel<=30)&&(alertCheck!='yes')) {
     var $battoast = $('<span style="font-size:18px;font-style: normal;">Low Battery (' + batteryLevel + '%)<img src="/images/icons/svgs/lowbat.svg" /></span>');
