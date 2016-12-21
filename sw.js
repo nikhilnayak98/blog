@@ -10,6 +10,7 @@ self.addEventListener('install', e => {
 	'/images/icons/png/gmail3.png',
 	'/images/icons/svgs/check.svg',
 	'/images/icons/svgs/offline.svg',
+	'/images/icons/svgs/lowbat.svg',
 	'/images/icons/png/linkedin24.png',
 	'/js/smoothscroll.js',
 	'/js/util.js',
