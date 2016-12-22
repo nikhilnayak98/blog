@@ -28,7 +28,7 @@ THE SOFTWARE.
 -->
 <html>
 <head>
-<meta property="og:title" content="App Feedback">
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta property="og:title" content="App Feedback">
   <meta property="og:site_name" content="App Feedback">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://nikhilnayak98.github.io">
