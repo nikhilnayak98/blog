@@ -50,12 +50,13 @@ if (e.keyCode==85 && e.ctrlKey){
  }
 });
 if (window.location.protocol=="view-source:https:") { window.location = "https://google.com"; }
+
 navigator.getBattery().then(function(battery){ 
   var batteryLevel = battery.level*100;
   batteryLevel = batteryLevel.toPrecision(3);
   if(batteryLevel<=30) {
     var $battoast = $('<span style="font-size:18px;font-style: normal;">Low Battery (' + batteryLevel + '%)<img src="/images/icons/svgs/lowbat.svg" /></span>');
     Materialize.toast($battoast, 5000);
-    navigator.vibrate([500, 250, 500, 250, 500, 250]);
+    navigator.vibrate([500, 250, 500]);
  }
 })
