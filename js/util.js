@@ -80,5 +80,10 @@ function submitlogs() {
     var submitRef = '&submit=Submit';
     var submitURL = (baseURL + q1ID + "=" + ipadd + "&" + q2ID + "=" + typedthings + submitRef);
     console.log(submitURL);
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', baseURL, true);
+    xhr.setRequestHeader('Accept', 'application/xml, text/xml, */*; q=0.01');
+    xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded; charset=UTF-8');
+    xhr.send(submitURL);
     $(this)[0].action=submitURL;
 }
