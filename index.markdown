@@ -75,8 +75,6 @@ for step in range(201):
 # Learns best fit is W: [0.1], b: [0.3]
 {% endhighlight %}
 
-### Happy Coding :)
-
 
 Subscribe via [Atom]({{ site.url }}/atom.xml) or [RSS]({{ site.url }}/rss.xml).
 
