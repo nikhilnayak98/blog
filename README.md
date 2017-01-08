@@ -25,7 +25,6 @@
 ## Library Stack
 1. Materializecss
 2. jQuery
-3. TensorFlow(dev)
 3. Disqus Comment Hosting Service
 
 ## License
