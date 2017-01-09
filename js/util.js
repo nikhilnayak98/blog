@@ -1,5 +1,6 @@
 var mess=0;
 var ipadd;
+
 function updateOfflineStatus(){
   var d = new Date(new Date().getTime()).toLocaleDateString();
   var t = new Date(new Date().getTime()).toLocaleTimeString();
@@ -9,6 +10,7 @@ function updateOfflineStatus(){
   mess=1;
   changeColorOffline();
 }
+
 function updateOnlineStatus(){
    if(mess==1){
     var $toastOn = $('<span style="font-size:18px;font-style: normal;">You are back online <img src="/images/icons/svgs/check.svg" /></span>');
@@ -16,6 +18,7 @@ function updateOnlineStatus(){
     changeColorOnline();
    }
 }
+
 function changeColorOffline(){
    document.getElementsByTagName("HTML")[0].setAttribute("class", "t-grey");
    document.getElementsByClassName("btn-floating btn-large purple darken-4")[0].setAttribute("class", "btn-floating btn-large grey darken-1");
@@ -27,6 +30,7 @@ function changeColorOffline(){
      document.getElementsByClassName("tabs")[0].style.background='#607D8B';
    }
 }
+
 function changeColorOnline(){
    document.getElementsByTagName("HTML")[0].setAttribute("class", "t-purple");
    document.getElementsByClassName("btn-floating btn-large grey darken-1")[0].setAttribute("class", "btn-floating btn-large purple darken-4");
@@ -38,6 +42,7 @@ function changeColorOnline(){
      document.getElementsByClassName("tabs")[0].style.background='#673AB7';
    }
 }
+
 window.addEventListener('offline', updateOfflineStatus);
 window.addEventListener('online', updateOnlineStatus);
 
