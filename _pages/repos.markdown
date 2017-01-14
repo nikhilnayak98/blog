@@ -3,8 +3,6 @@ layout: page
 title: Repos
 permalink: /repos/
 ---
-<img src="https://contributionsapigithub.herokuapp.com/nikhilnayak98" alt="nikhilnayak98's Github chart" />
-<br>
 <div id="w">
    
     <div id="ghapidata"></div>
@@ -25,15 +23,10 @@ permalink: /repos/
       }
       
       else {
-        // else we have a user and we display their info
+        // user data
         var fullname   = json.name;
         var username   = json.login;
-        var aviurl     = json.avatar_url;
         var profileurl = json.html_url;
-        var location   = json.location;
-        var followersnum = json.followers;
-        var followingnum = json.following;
-        var reposnum     = json.public_repos;
         
         if(fullname == undefined) { fullname = username; }
         
@@ -64,7 +57,7 @@ permalink: /repos/
         } // end outputPageContent()
       } // end else statement
     }); // end requestJSON Ajax call
-  }); // end click event handler
+  }); // end onpageload event handler
   
   function requestJSON(url, callback) {
     $.ajax({
