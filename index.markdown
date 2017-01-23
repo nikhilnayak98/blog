@@ -24,6 +24,8 @@ title: Nikhil Nayak | 18 and Learning
                 <img height="32" width="32" src="images/icons/png/gmail3.png"></a>
                 <a target="_blank" href="https://in.linkedin.com/in/nikhilnayak98">
                 <img height="32" width="32" src="images/icons/png/linkedin24.png"></a>
+                <a href="tel:+918093503424">
+                <img height="32" width="32" src="images/icons/png/call.png"></a>
                     </div>
                 </div>
 </div>
