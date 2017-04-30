@@ -11,7 +11,7 @@ permalink: /repos/
   $(function(){
   $(window).load(function(e){
     e.preventDefault();
-    $('#ghapidata').html('<div id="loader"><img src="https://camo.githubusercontent.com/9b83e235aadc0f0233a6954393cbb691b4dfb4fb/687474703a2f2f692e696d6775722e636f6d2f514c34756238352e676966" alt="Loading..."></div>');
+    $('#ghapidata').html('<center><div id="loader"><img src="https://camo.githubusercontent.com/9b83e235aadc0f0233a6954393cbb691b4dfb4fb/687474703a2f2f692e696d6775722e636f6d2f514c34756238352e676966" alt="Loading..."></div></center>');
     
     var username = 'nikhilnayak98';
     var requri   = 'https://api.github.com/users/'+username;
