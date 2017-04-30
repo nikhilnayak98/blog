@@ -4,6 +4,7 @@ title: Repos
 permalink: /repos/
 ---
 <div id="w">
+<div id="orgdata"></div>
     <div id="ghapidata"></div>
   </div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
@@ -26,18 +27,21 @@ permalink: /repos/
         var fullname   = json.name;
         var username   = json.login;
         var profileurl = json.html_url;
+	var avatarurl = json.avatar_url;
         
         if(fullname == undefined) { fullname = username; }
-	var orghtml = '';
+        
+        var outhtml = '<img class="materialboxed" width="70" src="' + avatarurl + '"><h2>'+' <span>@<a href="'+profileurl+'" target="_blank">'+username+'</a></span></h2>';
+	
 	$.getJSON("https://api.github.com/users/nikhilnayak98/orgs", function(result){
+	var orghtml = '';
             $.each(result, function(i, field){
                 orghtml = orghtml + '<div class="chip"><img src="' + field.avatar_url + '" height="50px" width="50px">' + field.login + '</div>';
             });
+	    $('#orgdata').html(orghtml);
         });
-        
-        var outhtml = '<h2>'+' <span>@<a href="'+profileurl+'" target="_blank">'+username+'</a></span></h2>';
        
-        outhtml = outhtml + '<div>' + orghtml;
+        outhtml = outhtml + '<div>';
         
         var repositories;
         $.getJSON(repouri, function(json){
