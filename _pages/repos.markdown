@@ -33,9 +33,8 @@ permalink: /repos/
         var outhtml = '<img class="materialboxed" width="70" src="' + avatarurl + '"><h2>'+' <span>@<a href="'+profileurl+'" target="_blank">'+username+'</a></span></h2>>';
 	
 	$.getJSON("https://api.github.com/users/nikhilnayak98/orgs", function(result){
-	var orghtml = '';
             $.each(result, function(i, field){
-                orghtml = orghtml + '<div class="chip"><img src="' + field.avatar_url + '" height="50px" width="50px">' + field.login + '</div>';
+                outhtml = outhtml + '<div class="chip"><img src="' + field.avatar_url + '" height="50px" width="50px">' + field.login + '</div>';
             });
 	    $('#orgdata').html(outhtml);
         });
