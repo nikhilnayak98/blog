@@ -30,7 +30,7 @@ permalink: /repos/
         
         if(fullname == undefined) { fullname = username; }
         
-        var outhtml = '<img class="materialboxed" width="70" src="' + avatarurl + '"><h2>'+' <span>@<a href="'+profileurl+'" target="_blank">'+username+'</a></span></h2>>';
+        var outhtml = '<img class="materialboxed" width="70" src="' + avatarurl + '"><h2>'+' <span>@<a href="'+profileurl+'" target="_blank">'+username+'</a></span></h2>';
 	
 	$.getJSON("https://api.github.com/users/nikhilnayak98/orgs", function(result){
             $.each(result, function(i, field){
@@ -75,4 +75,7 @@ permalink: /repos/
     });
   }
 });
+$(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
   </script>
