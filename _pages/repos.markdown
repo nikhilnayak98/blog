@@ -37,7 +37,6 @@ permalink: /repos/
             });
             $('#orgdata').html(orghtml);
         });
-});
         
         var outhtml = '<h2>'+' <span>@<a href="'+profileurl+'" target="_blank">'+username+'</a></span></h2>';
        
