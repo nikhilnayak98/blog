@@ -35,7 +35,7 @@ permalink: /repos/
 	
 	$.getJSON("https://api.github.com/users/nikhilnayak98/orgs", function(result){
             $.each(result, function(i, field){
-                outhtml = outhtml + '<a href="' + field.url + '"><div class="chip waves-effect waves-light btn z-depth-4 grey lighten-2" style="text-transform: none"><img src="' + field.avatar_url + '" height="50px" width="50px">' + field.login + '</div></a>';
+                outhtml = outhtml + '<a href="https://github.com/' + field.login + '"><div class="chip waves-effect waves-light btn z-depth-4 grey lighten-2" style="text-transform: none"><img src="' + field.avatar_url + '" height="50px" width="50px">' + field.login + '</div></a>';
             });
 	    $('#orgdata').html(outhtml);
         });
