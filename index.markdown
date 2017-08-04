@@ -5,11 +5,6 @@ title: Nikhil Nayak | 18 and Learning
 <div class="col s12 m12 l4" id="fadeIn" style="opacity: 1;">
 
                 <div class="card hoverable">
-                    <div class="waves-effect waves-block waves-light">
-                        <div class="center" style="padding-top: 20px;">
-                            <img width="256px" height="256px" src="images/self_pic.jpg" class="circle responsive-img">
-                        </div>
-                    </div>
                     <div class="card-content center">
                         <span class="card-title activator center" style="color:rgba(0,0,0,0.7);"><strong>Nikhil Nayak</strong>
                          </span>
