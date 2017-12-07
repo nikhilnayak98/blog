@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Nikhil Nayak | 18 and Learning
+title: Nikhil Nayak | 19 and Learning
 ---
 <div class="col s12 m12 l4" id="fadeIn" style="opacity: 1;">
 
@@ -8,8 +8,6 @@ title: Nikhil Nayak | 18 and Learning
                     <div class="card-content center">
                         <span class="card-title activator center" style="color:rgba(0,0,0,0.7);"><strong>Nikhil Nayak</strong>
                          </span>
-                        <p>Student</p>
-                        <p>SOA University</p>
                         <p>Bhubaneswar, IN</p>
                     </div>
                     <div class="card-action center">
@@ -19,8 +17,6 @@ title: Nikhil Nayak | 18 and Learning
                 <img height="32" width="32" src="images/icons/png/gmail3.png"></a>
                 <a target="_blank" href="https://in.linkedin.com/in/nikhilnayak98">
                 <img height="32" width="32" src="images/icons/png/linkedin24.png"></a>
-                <a href="tel:+918093503424">
-                <img height="32" width="32" src="images/icons/png/call.png"></a>
                     </div>
                 </div>
 </div>
