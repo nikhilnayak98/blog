@@ -21,10 +21,6 @@ title: Nikhil Nayak
                     </div>
                 </div>
 </div>
-<br>
-
-
-Subscribe via [Atom]({{ site.url }}/atom.xml) or [RSS]({{ site.url }}/rss.xml).
 
 <script>
 if('serviceWorker' in navigator) {
