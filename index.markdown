@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Nikhil Nayak | 19 and Learning
+title: Nikhil Nayak
 ---
 
 <div class="col s12 m12 l4" id="fadeIn" style="opacity: 1;">
