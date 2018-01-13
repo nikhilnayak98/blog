@@ -1,7 +1,9 @@
-GitHubActivity.feed({
+{% if page.url == '/activity/' %}
+  GitHubActivity.feed({
 	username: "nikhilnayak98",
 	selector: "#feed"
-});
+  });
+{% endif %}
 
 var mess=0;
 var ipadd;
