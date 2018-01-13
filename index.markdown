@@ -32,6 +32,10 @@ Automating my existence is what I strive for. I m interested in Machine Learning
 In my spare time you can find me building some or the other thing on the computer. I've done a lot of interesting projects over the past years. Head over to the repos section to check out my exploits.
 -->
 
+<div id="github-card"
+     data-username="nikhilnayak98">
+</div>
+
 Subscribe via [Atom]({{ site.url }}/atom.xml) or [RSS]({{ site.url }}/rss.xml).
 
 <script>
