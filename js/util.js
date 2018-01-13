@@ -1,3 +1,8 @@
+GitHubActivity.feed({
+	username: "nikhilnayak98",
+	selector: "#feed"
+});
+
 var mess=0;
 var ipadd;
 
