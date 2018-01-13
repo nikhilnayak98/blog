@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "name": "Nikhil Nayak | 18 and Learning",
+  "name": "Nikhil Nayak",
   "launch_path": "/",
-  "description": "Nikhil Nayak a computer science pursuing student, interested in Machine Learning, TensorFlow, Virtual Reality.",
+  "description": "<3 Code!",
   "icons": {
     "128": "/images/favicon.png"
   },
@@ -18,8 +18,8 @@
   },
   "locales": {
     "en": {
-      "name": "Nikhil Nayak | 18 and Learning",
-      "description": "Nikhil Nayak a computer science pursuing student, interested in Machine Learning, TensorFlow, Virtual Reality."
+      "name": "Nikhil Nayak",
+      "description": "<3 Code!"
     }
   }
 }
