@@ -35,7 +35,7 @@ In my spare time you can find me building some or the other thing on the compute
 <div id="github-card"
      data-username="nikhilnayak98"
      data-sort-by="updateTime"
-     data-header-text="Recently Updated">
+     data-max-repos="0">
 </div>
 
 Subscribe via [Atom]({{ site.url }}/atom.xml) or [RSS]({{ site.url }}/rss.xml).
