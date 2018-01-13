@@ -66,9 +66,8 @@ span.gha-time {
   position: absolute;
   top: 1px;
   left: 1px;
-  width: calc(100% - 20px);
+  width: 100%;
   padding: 10px;
-  height: 67px;
   border-bottom: 1px solid #ddd;
   background: #ffffff; /* Old browsers */
   background: -moz-linear-gradient(top,  #ffffff 0%, #f4f4f4 100%); /* FF3.6+ */
