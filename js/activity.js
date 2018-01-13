@@ -367,3 +367,8 @@ icons = {
 },
 
 singleLineActivities = [ 'CreateEvent', 'DeleteEvent', 'FollowEvent', 'ForkEvent', 'GistEvent', 'MemberEvent', 'WatchEvent' ];
+
+GitHubActivity.feed({
+	username: "nikhilnayak98",
+	selector: "#feed"
+});
