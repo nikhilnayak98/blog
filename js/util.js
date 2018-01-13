@@ -1,11 +1,4 @@
-{% if page.url == '/activity/' %}
-  GitHubActivity.feed({
-	username: "nikhilnayak98",
-	selector: "#feed"
-  });
-{% endif %}
-
-var mess=0;
+var mess = 0;
 var ipadd;
 
 function updateOfflineStatus(){
@@ -14,12 +7,12 @@ function updateOfflineStatus(){
   console.log('Went Offline on ' + d + ' at ' + t);
   var $toastOff = $('<span style="font-size:18px;font-style: normal;">You are offline <img src="/images/icons/svgs/offline.svg"/></span>');
   Materialize.toast($toastOff, 5000);
-  mess=1;
+  mess = 1;
   changeColorOffline();
 }
 
 function updateOnlineStatus(){
-   if(mess==1){
+   if(mess == 1){
     var $toastOn = $('<span style="font-size:18px;font-style: normal;">You are back online <img src="/images/icons/svgs/check.svg" /></span>');
     Materialize.toast($toastOn, 5000);
     changeColorOnline();
@@ -33,9 +26,6 @@ function changeColorOffline(){
    document.querySelector('meta[name="msapplication-TileColor"]').setAttribute("content", "#607D8B");
    document.querySelector('meta[name="msapplication-navbutton-color"]').setAttribute("content", "#607D8B");
    document.querySelector('meta[name="apple-mobile-web-app-status-bar-style"]').setAttribute("content", "grey-translucent");
-   if(window.location.pathname=='/academics/') {
-     document.getElementsByClassName("tabs")[0].style.background='#607D8B';
-   }
 }
 
 function changeColorOnline(){
@@ -45,9 +35,6 @@ function changeColorOnline(){
    document.querySelector('meta[name="msapplication-TileColor"]').setAttribute("content", "#673AB7");
    document.querySelector('meta[name="msapplication-navbutton-color"]').setAttribute("content", "#673AB7");
    document.querySelector('meta[name="apple-mobile-web-app-status-bar-style"]').setAttribute("content", "purple-translucent");
-   if(window.location.pathname=='/academics/') {
-     document.getElementsByClassName("tabs")[0].style.background='#673AB7';
-   }
 }
 
 window.addEventListener('offline', updateOfflineStatus);
@@ -60,9 +47,8 @@ if (!navigator.onLine) {
 navigator.getBattery().then(function(battery){ 
   var batteryLevel = battery.level*100;
   batteryLevel = batteryLevel.toPrecision(3);
-  if(batteryLevel<=30) {
+  if(batteryLevel <= 30) {
     var $battoast = $('<span style="font-size:18px;font-style: normal;">Low Battery (' + batteryLevel + '%)<img src="/images/icons/svgs/lowbat.svg" /></span>');
     Materialize.toast($battoast, 5000);
-    navigator.vibrate([500, 250, 500]);
  }
 })
