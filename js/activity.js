@@ -1,21 +1,3 @@
-var ipadd;
-
-var request = new XMLHttpRequest();
-request.open('GET', '//freegeoip.net/json/?callback=', true);
-request.onload = function() {
-  if (request.status >= 200 && request.status < 400) {
-    var data = JSON.parse(request.responseText);
-    returnjson(data);
-  } else {
-  }
-};
-request.onerror = function() {};
-request.send();
-
-function returnjson(data) {
-	ipadd = data;
-}
-
 var GitHubActivity = (function() {
   'use strict';
 
@@ -341,7 +323,7 @@ var templates = {
                  <div class="gha-gravatar">{{{gravatarLink}}}</div>\
                </div><div class="gha-push"></div>',
   NoActivity: '<div class="gha-info">This user does not have any public activity yet.</div>',
-  UserNotFound: '<div class="gha-info">User {{username}} wasn\'t found or API calls limit exceeded for' + ipadd + '</div>',
+  UserNotFound: '<div class="gha-info">User {{username}} wasn\'t found or API access limit exceeded.</div>',
   EventsNotFound: '<div class="gha-info">Events for user {{username}} not found.</div>',
   CommitCommentEvent: 'commented on commit {{{commentLink}}}<br>{{{userGravatar}}}<small>{{comment}}</small>',
   CreateEvent: 'created {{payload.ref_type}} {{{branchLink}}}{{{repoLink}}}',
