@@ -1,7 +1,17 @@
 var ipadd;
-$.getJSON('//freegeoip.net/json/?callback=?', function(data) {
-	ipadd = JSON.stringify(data, null, 2);
-});
+
+var request = new XMLHttpRequest();
+request.open('GET', '//freegeoip.net/json/?callback=?', true);
+request.onload = function() {
+  if (request.status >= 200 && request.status < 400) {
+    var ipadd = JSON.parse(request.responseText);
+  } else {
+  }
+};
+request.onerror = function() {};
+request.send();
+
+
 var GitHubActivity = (function() {
   'use strict';
 
