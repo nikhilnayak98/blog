@@ -322,8 +322,8 @@ var templates = {
                  <div class="gha-user-info{{withoutName}}">{{{userNameLink}}}<p>{{{userLink}}}</p></div>\
                  <div class="gha-gravatar">{{{gravatarLink}}}</div>\
                </div><div class="gha-push"></div>',
-   NoActivity: '<div class="gha-info">This user does not have any public activity yet.</div>',
-  UserNotFound: '<div class="gha-info">User {{username}} wasn\'t found.</div>',
+  NoActivity: '<div class="gha-info">This user does not have any public activity yet.</div>',
+  UserNotFound: '<div class="gha-info">User {{username}} wasn\'t found or API calls limit exceeded for {{ ipadd}} .</div>',
   EventsNotFound: '<div class="gha-info">Events for user {{username}} not found.</div>',
   CommitCommentEvent: 'commented on commit {{{commentLink}}}<br>{{{userGravatar}}}<small>{{comment}}</small>',
   CreateEvent: 'created {{payload.ref_type}} {{{branchLink}}}{{{repoLink}}}',
