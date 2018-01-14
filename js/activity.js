@@ -1,3 +1,7 @@
+var ipadd;
+$.getJSON('//freegeoip.net/json/?callback=?', function(data) {
+	ipadd = JSON.stringify(data, null, 2);
+});
 var GitHubActivity = (function() {
   'use strict';
 
