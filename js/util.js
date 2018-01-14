@@ -1,5 +1,4 @@
 var mess = 0;
-var ipadd = '';
 
 function updateOfflineStatus(){
   var d = new Date(new Date().getTime()).toLocaleDateString();
@@ -52,7 +51,3 @@ navigator.getBattery().then(function(battery){
     Materialize.toast($battoast, 5000);
  }
 })
-
-$.getJSON('//freegeoip.net/json/?callback=?', function(data) {
-  ipadd = JSON.stringify(data, null, 2);
-});
