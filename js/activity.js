@@ -1,7 +1,7 @@
 var ipadd;
 
 var request = new XMLHttpRequest();
-request.open('GET', '//freegeoip.net/json/?callback=?', true);
+request.open('GET', '//freegeoip.net/json/?callback=', true);
 request.onload = function() {
   if (request.status >= 200 && request.status < 400) {
     var ipadd = JSON.parse(request.responseText);
