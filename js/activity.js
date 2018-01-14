@@ -4,13 +4,17 @@ var request = new XMLHttpRequest();
 request.open('GET', '//freegeoip.net/json/?callback=', true);
 request.onload = function() {
   if (request.status >= 200 && request.status < 400) {
-    ipadd = JSON.parse(request.responseText);
+    var data = JSON.parse(request.responseText);
+    returnjson(data);
   } else {
   }
 };
 request.onerror = function() {};
 request.send();
 
+function returnjson(data) {
+	ipadd = data;
+}
 
 var GitHubActivity = (function() {
   'use strict';
