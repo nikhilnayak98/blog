@@ -1,7 +1,0 @@
----
-layout: post
-title:  "edmbeats"
-date:   2016-04-13 12:35:21
-categories: edmbeats,dj
----
-This website is based on providing young DJs a platform to show their professional skills. The site was initally launched at [edmbeats.tk](http://edmbeats.tk), a free domain for a year. The source code is available on github. Follow this [link](https://github.com/nikhilnayak98/edmbeats_app).
