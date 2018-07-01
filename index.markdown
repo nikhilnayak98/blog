@@ -14,7 +14,7 @@ title: Nikhil Nayak
                     <div class="card-action center">
                 <a target="_blank" href="https://github.com/nikhilnayak98">
                 <img height="32" width="32" src="images/icons/png/github17.png"></a>
-                <a target="_blank" href="mailto:nikhilnayak98@gmail.com?subject=Reply From Homepage&amp;body=Hi Nikhil,%0D">
+                <a target="_blank" href="mailto:&#110;&#105;&#107;&#104;&#105;&#108;&#110;&#097;&#121;&#097;&#107;&#057;&#056;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;?subject=Reply From Homepage&amp;body=Hi Nikhil,%0D">
                 <img height="32" width="32" src="images/icons/png/gmail3.png"></a>
                 <a target="_blank" href="https://in.linkedin.com/in/nikhilnayak98">
                 <img height="32" width="32" src="images/icons/png/linkedin24.png"></a>
