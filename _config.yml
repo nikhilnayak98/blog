@@ -3,7 +3,7 @@ email: nikhilnayak98@gmail.com
 description: > # ignore newlines until "baseurl:"
  <3 Code!
 baseurl: "" # subpath, e.g. /blog
-url: "https://nikhilnayak98.github.io" # base hostname & protocol
+url: "https://nikhilnayak.me" # base hostname & protocol
 
 # Social
 githubUsername: nikhilnayak98
