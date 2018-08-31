@@ -9,11 +9,11 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:site_name" content="Nikhil Nayak">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ site.baseurl }}">
+  <meta property="og:url" content="{{ site.url }}">
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta property="og:image" content="{{ site.baseurl }}/images/favicon.png">
+  <meta property="og:image" content="{{ site.url }}/images/favicon.png">
 	
-  <meta name="msapplication-TileImage" content="{{ site.baseurl }}/images/favicon.png">
+  <meta name="msapplication-TileImage" content="{{ site.url }}/images/favicon.png">
   <meta name="msapplication-TileColor" content="#673AB7">
   
   <link rel="manifest" href="/manifest.json">
@@ -39,16 +39,16 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,700|Roboto+Mono:400,500' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="/materialize/css/materialize.min.css">
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/rss.xml" | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/atom.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/rss.xml" | prepend: site.url | prepend: site.url }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/atom.xml" | prepend: site.url | prepend: site.url }}">
   {% if page.url == '/activity/' %}
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/activity.css">
+  <link rel="stylesheet" href="{{ site.url }}/css/activity.css">
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-  <script type="text/javascript" src="{{ site.baseurl }}/js/activity.js"></script>
+  <script type="text/javascript" src="{{ site.url }}/js/activity.js"></script>
   {% endif %}
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89283941-1"></script>
