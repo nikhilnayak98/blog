@@ -31,8 +31,7 @@ Automating my existence is what I strive for. I m interested in Machine Learning
 
 Dreamer and a fanatic of all digital things. I ❤ experimenting with code (definitely prefer tabs over spaces) and reading about space exploration. Pssst, I also do VFX and motion graphics 😜. I believe that a well-delivered technology renders a new culture. Often in the beginning, the new culture is thought of as an alternative, but soon it transforms into the lived culture that many people share through interaction. Thinking about how technology could influence the way we live is my major interests. While I am proficient in building scalable backend services (API services, stream processing, and async mechanisms) and Android development, my major interests are AI (It's an exciting time for AI isn't it?) & High Performance Computing. While hard engineering problems are often intrinsically fun to tackle, I'm most attracted to solving real customer problems with a business justification.
 
-I'm a massive cyberpunk nerd with an interest in open source. In my free time I like to hack on fun projects, play / watch cricket with friends, gulp chocolate smoothies and take pictures (like obsessing over my Google Pixel) .
--->
+I'm a massive cyberpunk nerd with an interest in open source. In my free time I like to hack on fun projects, play / watch cricket with friends, gulp chocolate smoothies and take pictures (like obsessing over my Pixel 📱).
 
 <script>
 if('serviceWorker' in navigator) {
