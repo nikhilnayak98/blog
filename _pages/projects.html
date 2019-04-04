@@ -1,0 +1,44 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+{% for post in site.posts  %}
+    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+
+    {% if forloop.first %}
+        <h2 class="c-archives__year" id="{{ this_year }}-ref">{{this_year}}</h2>
+        <ul class="c-archives__list">
+    {% endif %}
+        <li class="c-archives__item">
+        <div class="row">
+        <div class="col s12 m12">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">{{ post.title }}</span>
+                <span style="float:right">
+                    <div class="chip">
+                        {{ post.categories }}
+                    </div>
+                </span>
+              <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+            </div>
+            <div class="card-action">
+              <a href="{{ post.url | prepend: site.baseurl }}">VIEW</a>
+                <span style="float:right;color:white;">{{ post.date | date: "%b %-d, %Y" }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+        </li>
+    {% if forloop.last %}
+        </ul>
+    {% else %}
+        {% if this_year != next_year %}
+        </ul>
+        <h2 class="c-archives__year" id="{{ next_year }}-ref">{{next_year}}</h2>
+        <ul class="c-archives__list">
+        {% endif %}
+    {% endif %}
+{% endfor %}
