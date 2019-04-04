@@ -32,7 +32,7 @@ Dreamer and a fanatic of all digital things. I ❤ experimenting with code and r
 
 I'm a massive cyberpunk nerd with an interest in open source. In my free time I like to hack on fun projects, play / watch cricket with friends, gulp chocolate smoothies and take pictures.
 
-<script>
+<!--script>
 if('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/sw.js', { scope: '/' })
           .then(function(registration) {
@@ -52,4 +52,4 @@ if('serviceWorker' in navigator) {
          localStorage.setItem('alerted','yes');
         }
       }
-</script>
+</script-->
