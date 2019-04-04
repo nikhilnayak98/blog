@@ -17,16 +17,11 @@ permalink: /projects/
           <div class="card blue-grey darken-1">
             <div class="card-content white-text">
               <span class="card-title">{{ post.title }}</span>
-                <span style="float:right">
-                    <div class="chip">
-                        {{ post.categories }}
-                    </div>
-                </span>
               <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
             </div>
             <div class="card-action">
               <a href="{{ post.url | prepend: site.baseurl }}">VIEW</a>
-                <span style="float:right;color:white;">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <span style="float:right;color:white;">{{ post.date | date: "%b, %Y" }}</span>
             </div>
           </div>
         </div>
