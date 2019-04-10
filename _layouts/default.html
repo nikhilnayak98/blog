@@ -53,8 +53,8 @@ THE SOFTWARE.
       $(document).ready(function(){
         $('.collapsible').collapsible();
         $('.modal').modal();
-        $('.modal').modal('open');
      });
+       $(window).load(function () { $('.modal').modal('open'); });
       console.image('{{ site.url }}/images/favicon.png');
     </script>
     <script src="{{ site.url }}/js/util.js"></script>
