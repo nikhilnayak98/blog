@@ -25,7 +25,7 @@ title: Nikhil Nayak
 
 ## Hello!
 
-I m a third year undergrad student of Computer Science And Engineering Dept. at SOA University.
+I m a third year undergrad student of Computer Science And Engineering Dept. at SOA University. Checkout my new website live at <a href="https://nikhilnayak.dev">https://nikhilnayak.dev</a>
 
 
 Dreamer and a fanatic of all digital things. I ❤ experimenting with code and reading about space exploration. Pssst, I also do VFX and motion graphics 😜. I believe that a well-delivered technology renders a new culture. Often in the beginning, the new culture is thought of as an alternative, but soon it transforms into the lived culture that many people share through interaction. Thinking about how technology could influence the way we live is something which excites me. While I am proficient in building scalable backend services and in Android Development, my major interests are High Performance Computing & AI (It's an exciting time for AI isn't it?). Life cant just be about solving one miserable problem after another. There have to be reasons that inspire you, that make you wake up in the morning and look forward to be part of humanity and the future.
