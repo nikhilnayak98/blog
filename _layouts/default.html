@@ -52,11 +52,11 @@ THE SOFTWARE.
     <script>
       $(document).ready(function(){
         $('.collapsible').collapsible();
-        $('.modal').modal();
      });
-       setTimeout( function(){ 
-     $('.modal').modal('open'); 
-  }  , 5000 );
+       setTimeout( function(){
+         $('.modal').modal();
+         $('.modal').modal('open');
+       }  , 3000 );
       console.image('{{ site.url }}/images/favicon.png');
     </script>
     <script src="{{ site.url }}/js/util.js"></script>
