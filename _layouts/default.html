@@ -35,15 +35,6 @@ THE SOFTWARE.
             <i class="material-icons">keyboard_arrow_up</i>
           </a>
 </div>
-    <div id="modal" class="modal open" style="z-index: 1003; display: block; opacity: 1; transform: scaleX(1); top: 10%;">
-    <div class="modal-content">
-      <h1><b><u>New Website</u></b></h1>
-      <p style="font-size:20px;">Visit my new website. Live at <a href="https://nikhilnayak.dev">https://nikhilnayak.dev</a>.</p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-blue btn-flat" style="font-size:20px;">Dismiss</a>
-    </div>
-  </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="/materialize/js/materialize.min.js"></script>
     <script src="/js/smoothscroll.js"></script>
@@ -53,10 +44,6 @@ THE SOFTWARE.
       $(document).ready(function(){
         $('.collapsible').collapsible();
      });
-       setTimeout( function(){
-         $('.modal').modal();
-         $('.modal').modal('open');
-       }  , 3000 );
       console.image('{{ site.url }}/images/favicon.png');
     </script>
     <script src="{{ site.url }}/js/util.js"></script>
