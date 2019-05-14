@@ -1,4 +1,4 @@
-# My Personal Blog
+# Personal Blog
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/nikhilnayak98/nikhilnayak98.github.io) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nikhilnayak98/nikhilnayak98.github.io/blob/master/LICENSE) [![Issues](https://img.shields.io/github/issues/nikhilnayak98/game-off-2016.svg)](https://github.com/nikhilnayak98/nikhilnayak98.github.io/issues) 
 
 ## Getting started
