@@ -2,8 +2,8 @@
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/nikhilnayak98/nikhilnayak98.github.io) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nikhilnayak98/nikhilnayak98.github.io/blob/master/LICENSE) [![Issues](https://img.shields.io/github/issues/nikhilnayak98/game-off-2016.svg)](https://github.com/nikhilnayak98/nikhilnayak98.github.io/issues) 
 
 ## Getting started
-1. `git clone https://github.com/nikhilnayak98/nikhilnayak98.github.io.git`
-2. `cd nikhilnayak98.github.io`
+1. `git clone https://github.com/nikhilnayak98/personalwebsite-v2.git`
+2. `cd personalwebsite-v2`
 3. Configure `_config.yml`
 4. `jekyll serve`
 
@@ -18,14 +18,8 @@
 + Fixed Navigation
   - True
   - False
-+ Offline Ready
 + Progressive Web App
-+ Comments
-  
-## Library Stack
-1. Materializecss
-2. jQuery
-3. Disqus Comment Hosting Service
++ Comments (Disqus Comment Hosting Service)
 
 ## License
 
