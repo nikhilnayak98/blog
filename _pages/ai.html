@@ -21,7 +21,7 @@ permalink: /MachineLearning/
                             <b>{{ post.title }}</b>
                         </div>
                         <div class="collapsible-body" style="display: none;">
-                            <p>{{ post.excerpt | strip_html | truncatewords: 20 }} ...<a href="{{ post.url | prepend: site.baseurl }}">View More</a></p>
+                            <p>{{ post.excerpt | strip_html | truncatewords: 20 }} ...<a href="{{ post.url | prepend: site.url }}">View More</a></p>
                         </div>
                     </li>
                 </ul>
