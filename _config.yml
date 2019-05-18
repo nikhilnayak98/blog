@@ -1,8 +1,8 @@
 title: Nikhil Nayak
 email: nikhilnayak98@gmail.com
-description: > # ignore newlines until "baseurl:"
+description: > # ignore newlines until "url:"
  <3 Code!
-baseurl: "" # subpath, e.g. /blog
+
 url: "https://nikhilnayak98.github.io/personalwebsite-v2" # base hostname & protocol
 
 # Social
