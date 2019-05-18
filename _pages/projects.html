@@ -20,7 +20,7 @@ permalink: /projects/
               <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
             </div>
             <div class="card-action">
-              <a href="{{ post.url | prepend: site.baseurl }}">VIEW</a>
+              <a href="{{ post.url | prepend: site.url }}">VIEW</a>
                 <span style="float:right;color:white;">{{ post.date | date: "%b, %Y" }}</span>
             </div>
           </div>
