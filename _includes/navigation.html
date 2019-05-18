@@ -1,7 +1,7 @@
 <nav class="c-navigation {% if site.fixedNav == 'true' %}is-fixed{% endif %}" style="white-space:nowrap;">
   <div style="overflow:hidden;">
   <div class="c-navigation__container u-container" style="overflow-x:auto;overflow-y:hidden;">
-    <a class="c-navigation__item {% if page.url == '/' %}is-active{% endif %}" href="{{ "/" | prepend: site.baseurl }}">Home</a>
+    <a class="c-navigation__item {% if page.url == '/' %}is-active{% endif %}" href="{{ "/" | prepend: site.url }}">Home</a>
     <a class="c-navigation__item {% if page.url == '/activity/' %}is-active{% endif %}" href="{{ "/activity/" | prepend: site.url }}">Activity</a>
     <a class="c-navigation__item {% if page.url == '/projects/' %}is-active{% endif %}" href="{{ "/projects/" | prepend: site.url }}">Projects</a>
     <a class="c-navigation__item {% if page.url == '/schedule/' %}is-active{% endif %}" href="{{ "/schedule/" | prepend: site.url }}">Schedule</a>
