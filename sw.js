@@ -2,8 +2,6 @@ self.addEventListener('install', e => {
   e.waitUntil(
     caches.open('nikhilnayak').then(cache => {
       return cache.addAll([
-        '/',
-        '/index.html',
         '/css/main.css',
 	'/css/activity.css',
 	'/images/self_pic.jpg',
@@ -27,9 +25,7 @@ self.addEventListener('install', e => {
 	'/images/icons/png/icon-72x72.png',
 	'/images/icons/png/icon-96x96.png',
 	'/images/icons/png/icon-128x128.png',
-	'/images/icons/png/icon-144x144.png',
-	'/activity/',
-	'/repos/'
+	'/images/icons/png/icon-144x144.png'
       ])
       .then(() => self.skipWaiting());
     })
